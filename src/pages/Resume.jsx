@@ -12,21 +12,21 @@ export default function Resume() {
 
                 <div className='flex justify-center items-center'>
                     <div className='bg-yellow-100 p-16 w-2/6 text-black font-bold m-20 text-center text-3xl'>
-                        <p>Download Justin's</p>
-                        <p>Cover Letter</p>
-                        <a href="#">HERE</a>
+                        <p>View Justin's</p>
+                        <p className='text-white'>Cover Letter</p>
+                        <a href="#" className='underline hover:text-white transition'>HERE</a>
                     </div>
                     <div className='bg-yellow-100 p-16 w-2/6 text-black font-bold m-20 text-center text-3xl'>
-                        <p>Download Justin's</p>
-                        <p>Resume</p>
-                        <a href="#">HERE</a>
+                        <p>View Justin's</p>
+                        <p className='text-white'>Resume</p>
+                        <a href="#" className='underline hover:text-white transition'>HERE</a>
                     </div>
                 </div>
 
-                <div className='bg-yellow-100 p-24 w-3/5 text-black font-bold'>
-                    <p>Download Justin's</p>
-                    <p>Letter of Recommendation</p>
-                    <a href="#">HERE</a>
+                <div className='bg-yellow-100 p-16 w-2/6 text-black font-bold m-auto text-center text-3xl'>
+                    <p>View Justin's</p>
+                    <p className='text-white'>Letter of Recommendation</p>
+                    <a href="#" className='underline hover:text-white transition'>HERE</a>
                 </div>
 
             </div>

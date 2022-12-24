@@ -15,11 +15,11 @@ export default function Navbar() {
         <div className='bg-green-700 pt-12'>
             <header className='bg-green-200 text-black font-bold flex justify-around h-24 text-3xl'>
                 <nav ref={navRef}>
-                    <Link className='px-20 hover:text-white hover:drop-shadow-xl transition duration-300' to="/about">about.</Link>
-                    <Link className='px-20 hover:text-white hover:drop-shadow-xl transition duration-300' to="/portfolio">portfolio.</Link>
+                    <Link className='px-10 hover:text-white hover:drop-shadow-xl transition duration-300' to="/about">about.</Link>
+                    <Link className='px-10 hover:text-white hover:drop-shadow-xl transition duration-300' to="/portfolio">portfolio.</Link>
                     <Link className='px-5 hover:text-cyan-500 scale hover:drop-shadow-xl transition duration-300 sm:text-6xl max-sm:text-6xl mt-2' to="/">JFK</Link>
-                    <Link className='px-20 hover:text-white hover:drop-shadow-xl transition duration-300' to="/resume">resume.</Link>
-                    <Link className='px-20 hover:text-white hover:drop-shadow-xl transition duration-300' to="/contact">contact.</Link>
+                    <Link className='px-10 hover:text-white hover:drop-shadow-xl transition duration-300' to="/resume">resume.</Link>
+                    <Link className='px-10 hover:text-white hover:drop-shadow-xl transition duration-300' to="/contact">contact.</Link>
                     <button className='nav-btn nav-close-btn lg:hidden md:flex sm:flex' onClick={showNavbar}>
                         <FaTimes />
                     </button>
