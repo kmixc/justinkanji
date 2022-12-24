@@ -15,19 +15,19 @@ export default function Contact() {
                     <form className='flex flex-wrap flex-col justify-center items-center'>
                         <div className='flex flex-col'>
                             <label htmlFor="">Name</label>
-                            <input type="text" name="" id="" />
+                            <input type="text" name="name" />
                         </div>
                         <div className='flex flex-col'>
                             <label htmlFor="">Email</label>
-                            <input type="text" name="" id="" />
+                            <input type="text" name="email" />
                         </div>
                         <div className='flex flex-col'>
                             <label htmlFor="">Phone Number</label>
-                            <input type="text" name="" id="" />
+                            <input type="text" name="phoneNumber" />
                         </div>
                         <div className='flex flex-col'>
                             <label htmlFor="">Message</label>
-                            <textarea type="text" name="" id="" />
+                            <textarea type="text" name="message" />
                         </div>
                     </form>
                 </div>
