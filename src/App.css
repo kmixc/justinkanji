@@ -1,9 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
-    font-family: 'Kanit', sans-serif;
+    font-family: 'League Spartan', sans-serif;
     margin: 0;
     padding: 0;
+}
+
+:root {
+    --mainColor: #15803D;
+    --mainColorLight: #5767aa;
+    --secondaryColor: #db2b39;
+    --textColor: #212121;
 }
 
 body {
@@ -13,4 +20,128 @@ body {
 main {
     width: 100%;
     height: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: #000;
+    color: var(--textColor);
+}
+
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--secondaryColor);
+}
+
+header .nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--textColor);
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+}
+
+nav .nav-close-btn {
+    transition: 0.5s;
+}
+
+nav .nav-close-btn:hover {
+    transform: rotate(180deg) scale(1.4);
+    color: #fff;
+}
+
+header div,
+nav {
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+    header .nav-btn {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    header nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: var(--mainColor);
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+
+    header .responsive_nav {
+        transform: none;
+    }
+
+    nav .nav-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    nav a {
+        font-size: 2.5rem;
+        padding: 20px;
+    }
+}
+
+.scale {
+    transition: 0.5s;
+}
+
+.scale:hover {
+    transform: translateY(1px) scale(1.1);
+}
+
+.social-link {
+    transition: 0.5s;
+}
+
+.social-link:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.bot-footer-link {
+    transition: 0.5s;
+}
+
+.bot-footer-link:hover:nth-child(1) {
+    transform: scale(1.1) rotate(-2deg);
+}
+
+.bot-footer-link:hover:nth-child(2) {
+    transform: scale(1.1) rotate(2deg);
+}
+
+.bot-footer-link:hover:nth-child(3) {
+    transform: scale(1.1) rotate(-3deg);
+}
+
+.bot-footer-link:hover:nth-child(4) {
+    transform: scale(1.1) rotate(3deg);
+}
+
+.bot-footer-link:hover:nth-child(5) {
+    transform: scale(1.1) rotate(-4deg);
 }
