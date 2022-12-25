@@ -13,13 +13,13 @@ export default function Navbar() {
 
     return (
         <div className='bg-green-700 pt-12'>
-            <header className='bg-green-200 text-black font-bold flex justify-around h-24 text-3xl'>
+            <header className='bg-green-200 text-black font-bold flex lg:justify-around md:justify-end sm:justify-end max-sm:justify-end h-24 text-3xl'>
                 <nav ref={navRef}>
-                    <Link className='px-10 hover:text-white hover:drop-shadow-xl transition duration-300' to="/about">about.</Link>
-                    <Link className='px-10 hover:text-white hover:drop-shadow-xl transition duration-300' to="/portfolio">portfolio.</Link>
-                    <Link className='px-5 hover:text-cyan-500 scale hover:drop-shadow-xl transition duration-300 sm:text-6xl max-sm:text-6xl mt-2' to="/">JFK</Link>
-                    <Link className='px-10 hover:text-white hover:drop-shadow-xl transition duration-300' to="/resume">resume.</Link>
-                    <Link className='px-10 hover:text-white hover:drop-shadow-xl transition duration-300' to="/contact">contact.</Link>
+                    <a className='px-10 hover:text-white hover:drop-shadow-xl transition duration-300' href="/about">about.</a>
+                    <a className='px-10 hover:text-white hover:drop-shadow-xl transition duration-300' href="/portfolio">portfolio.</a>
+                    <a className='px-5 hover:text-cyan-500 scale hover:drop-shadow-xl transition duration-300 sm:text-6xl max-sm:text-6xl mt-2' href="/">JFK</a>
+                    <a className='px-10 hover:text-white hover:drop-shadow-xl transition duration-300' href="/resume">resume.</a>
+                    <a className='px-10 hover:text-white hover:drop-shadow-xl transition duration-300' href="/contact">contact.</a>
                     <button className='nav-btn nav-close-btn lg:hidden md:flex sm:flex' onClick={showNavbar}>
                         <FaTimes />
                     </button>
@@ -29,7 +29,7 @@ export default function Navbar() {
                 </button>
             </header>
             <div>
-                <div className='bg-green-700 h-96 lg:px-44 sm:px-20 max-sm:px-10 pt-32 font-extrabold'>
+                <div className='bg-green-700 h-96 lg:px-44 sm:px-20 max-sm:px-10 pt-28 font-extrabold'>
                     <h2 className='text-black lg:text-6xl sm:text-6xl max-sm:text-5xl p-2 font-extrabold'>justin kanji.</h2>
                     <div className='lg:pl-32 sm:pl-20 max-sm:pl-5 lg:text-5xl text-center sm:text-4xl max-sm:text-3xl'>
                         <div className='flex flex-wrap font-extrabold'>
