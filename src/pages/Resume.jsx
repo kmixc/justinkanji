@@ -28,7 +28,6 @@ export default function Resume() {
                     <p className='text-white drop-shadow'>Letter of Recommendation</p>
                     <a href="#" className='underline hover:text-white transition'>HERE</a>
                 </div>
-
             </div>
         </div>
     )

@@ -1,8 +1,8 @@
 import React from 'react'
-import { Link } from "react-router-dom";
 import { AiFillLinkedin, AiFillYoutube, AiFillInstagram, AiOutlineTwitter } from "react-icons/ai"
 import { FaBars, FaTimes } from "react-icons/fa"
 import { useRef } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
     const navRef = useRef();
@@ -15,11 +15,11 @@ export default function Navbar() {
         <div className='bg-green-700 pt-12'>
             <header className='bg-green-200 text-black font-bold flex lg:justify-around md:justify-end sm:justify-end max-sm:justify-end h-24 text-3xl'>
                 <nav ref={navRef}>
-                    <a className='px-10 hover:text-white hover:drop-shadow-xl transition duration-300' href="/about">about.</a>
-                    <a className='px-10 hover:text-white hover:drop-shadow-xl transition duration-300' href="/portfolio">portfolio.</a>
-                    <a className='px-5 hover:text-cyan-500 scale hover:drop-shadow-xl transition duration-300 sm:text-6xl max-sm:text-6xl mt-2' href="/">JFK</a>
-                    <a className='px-10 hover:text-white hover:drop-shadow-xl transition duration-300' href="/resume">resume.</a>
-                    <a className='px-10 hover:text-white hover:drop-shadow-xl transition duration-300' href="/contact">contact.</a>
+                    <Link onClick={showNavbar} className='px-10 hover:text-white hover:drop-shadow-xl transition duration-300' to="/about">about.</Link>
+                    <Link onClick={showNavbar} className='px-10 hover:text-white hover:drop-shadow-xl transition duration-300' to="/portfolio">portfolio.</Link>
+                    <Link onClick={showNavbar} className='px-5 hover:text-cyan-500 scale hover:drop-shadow-xl transition duration-300 sm:text-6xl max-sm:text-6xl mt-2' to="/">JFK</Link>
+                    <Link onClick={showNavbar} className='px-10 hover:text-white hover:drop-shadow-xl transition duration-300' to="/resume">resume.</Link>
+                    <Link onClick={showNavbar} className='px-10 hover:text-white hover:drop-shadow-xl transition duration-300' to="/contact">contact.</Link>
                     <button className='nav-btn nav-close-btn lg:hidden md:flex sm:flex' onClick={showNavbar}>
                         <FaTimes />
                     </button>
@@ -47,16 +47,16 @@ export default function Navbar() {
                     </div>
                 </div>
                 <div className='flex text-white lg:justify-end pb-24 lg:pr-24 sm:justify-center max-sm:justify-center max-sm:text-xs'>
-                    <a href='#'>
+                    <a href='https://www.linkedin.com/in/justinkanji/' target="social">
                         <AiFillLinkedin className='social-link mx-2 hover:text-cyan-500 transition duration-300' size={"4em"} />
                     </a>
-                    <a href='#'>
+                    <a href='https://www.youtube.com/channel/UC7AyZaTnPckECJ6FU4wnNow' target="social">
                         <AiFillYoutube className='social-link mx-2 hover:text-cyan-500 transition duration-300' size={"4em"} />
                     </a>
-                    <a href='#'>
+                    <a href='https://www.instagram.com/justinkanji/?hl=en' target="social">
                         <AiFillInstagram className='social-link mx-2 hover:text-cyan-500 transition duration-300' size={"4em"} />
                     </a>
-                    <a href='#'>
+                    <a href='https://twitter.com/justinkanji' target="social">
                         <AiOutlineTwitter className='social-link mx-2 hover:text-cyan-500 transition duration-300' size={"4em"} />
                     </a>
                 </div>

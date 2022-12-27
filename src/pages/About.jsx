@@ -62,7 +62,7 @@ export default function About() {
                     </ul>
                 </div>
                 <div className='flex justify-end translate-y-[-2rem]'>
-                    <ul className='bg-yellow-200 lg:p-20 sm:p-14 max-sm:p-14 w-3/5 sm:w-full max-sm:w-full text-black font-bold'>
+                    <ul className='bg-yellow-200 lg:p-20 sm:p-14 max-sm:p-14 lg:w-3/5 sm:w-full max-sm:w-full text-black font-bold'>
                         <li className='list-disc text-2xl mb-5'>Within the last three years Justin has developed an interest in the areas of <span className='text-white text-3xl'>Web3.0</span> and <span className='text-white text-3xl'>Cryptocurrency</span></li>
                         <li className='list-disc text-2xl mb-5'>Justin has 10,000+ hours studied in this specific field</li>
                         <li className='list-disc text-2xl mb-5'>Justin studies behind the lines as to why certain things were designed the way they were</li>
