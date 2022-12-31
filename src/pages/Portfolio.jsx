@@ -24,7 +24,7 @@ export default function Portfolio() {
     return (
         <div>
             <div className='mt-24'>
-                <div className='bg-red-400 text-black font-bold lg:w-1/6 sm:w-full lg:h-96 sm:h-56 flex flex-col justify-center items-center lg:absolute p-12 lg:ml-72 lg:mt-56 sm:mt-24'>
+                <div className='bg-red-400 text-black font-bold lg:w-1/6 sm:w-full lg:h-96 sm:h-56 flex flex-col justify-center items-center lg:absolute p-12 lg:ml-72 lg:mt-40 sm:mt-24'>
                     <h2 className='text-5xl text-center'>Cradle.</h2>
                     <h3 className='text-2xl text-center'>Never Lose Sight</h3>
                     <p className='text-md text-center'>one-of-a-kind built in baby monitor right on your phone</p>
@@ -32,8 +32,8 @@ export default function Portfolio() {
                 <div className='flex justify-end'>
                     <div className='bg-yellow-200 text-black font-bold flex flex-col justify-center items-center lg:w-4/6 sm:w-full lg:mr-24 p-12'>
                         <div className='flex justify-center'>
-                            <img src={cradle_1} className="lg:w-2/6 sm:w-3/6 max-sm:w-3/6 p-5" alt="" />
-                            <img src={cradle_2} className="lg:w-2/6 sm:w-3/6 max-sm:w-3/6 p-5 pt-12" alt="" />
+                            <img src={cradle_1} className="lg:w-1/4 sm:w-3/6 max-sm:w-3/6 p-5" alt="" />
+                            <img src={cradle_2} className="lg:w-1/4 sm:w-3/6 max-sm:w-3/6 p-5 pt-12" alt="" />
                         </div>
                         <a href="/cradle" className='flex items-center arrow-hover text-xl'>
                             View Here

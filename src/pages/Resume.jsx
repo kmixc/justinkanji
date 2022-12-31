@@ -26,7 +26,7 @@ export default function Resume() {
                 <div className='bg-yellow-100 p-16 lg:w-2/6 sm:w-full max-sm:w-full text-black font-bold m-auto text-center text-3xl'>
                     <p>View Justin's</p>
                     <p className='text-white drop-shadow'>Letter of Recommendation</p>
-                    <a href="#" className='underline hover:text-white transition'>HERE</a>
+                    <a href="/contact" className='underline hover:text-white transition'>REQUEST</a>
                 </div>
             </div>
         </div>

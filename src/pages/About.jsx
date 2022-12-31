@@ -4,19 +4,19 @@ import Image_1 from '../img/headshot.jpeg'
 export default function About() {
     return (
         <div>
-            <div className='container bg-red-400 m-auto lg:my-24 sm:my-12 max-sm:my-12'>
+            <div className='w-4/6 bg-red-400 m-auto lg:my-24 sm:my-12 max-sm:my-12'>
                 <div className='text-black flex justify-center items-center font-bold flex-col py-20 lg:px-32 max-sm:px-10'>
-                    <h2 className='lg:text-6xl sm:text-3xl max-sm:text-3xl pb-8 text-white'>@
+                    <h2 className='lg:text-5xl sm:text-3xl max-sm:text-3xl pb-8 text-white'>@
                         <span className='text-green-700'>justinkanji</span>
                     </h2>
                     <ul>
-                        <li className='list-disc lg:text-4xl sm:text-xl max-sm:text-xl'>
+                        <li className='list-disc lg:text-3xl sm:text-xl max-sm:text-xl'>
                             Justin is an expected <span className='text-white'>graduate</span> from the <span className='text-white'>University of Waterloo</span> Stratford School of Interaction Design & Business
                         </li>
-                        <li className='list-disc lg:text-4xl sm:text-xl max-sm:text-xl'>
-                            He has graduated with a degree in Honors <span className='text-white'>Bachelor of Global Business & Digital Arts (GBDA)</span>
+                        <li className='list-disc lg:text-3xl sm:text-xl max-sm:text-xl'>
+                            Justin has graduated with a degree in Honors <span className='text-white'>Bachelor of Global Business & Digital Arts (GBDA)</span>
                         </li>
-                        <li className='list-disc lg:text-4xl sm:text-xl max-sm:text-xl'>
+                        <li className='list-disc lg:text-3xl sm:text-xl max-sm:text-xl'>
                             In 2018, Canadian Design Firm Rossul had named the Stratford School of Interactive Design & Business “<span className='text-white'>Best Canadian Undergraduate UX Design University</span>”
                         </li>
                     </ul>
@@ -28,7 +28,7 @@ export default function About() {
                     <div>
                         <img className='rounded-full lg:w-80 sm:w-56 max-sm:w-56' src={Image_1} alt="Headshot" />
                     </div>
-                    <div className='text-center max-sm:py-6 font-bold'>
+                    <div className='text-center py-6 font-bold'>
                         <h2 className='lg:text-5xl sm:text-4xl max-sm:text-4xl lg:pb-0 sm:pb-2 max-sm:pb-2 text-black'><span className='text-white'>Justin</span> is expecting to graduate in <span className='text-white'>May of 2023</span></h2>
                         <p className='text-black text-4xl mb-12'>
                             He is looking to obtain a job in the <span className='text-white'>design field...</span>
@@ -44,7 +44,7 @@ export default function About() {
                 </div>
             </div>
             <div className='lg:w-3/5 sm:w-4/5 max-sm:w-4/5 bg-teal-200 m-auto py-28 lg:px-16 sm:px-6 max-sm:px-6 translate-y-[-2rem] flex justify-center items-center'>
-                <p className='text-black lg:text-4xl sm:text-2xl max-sm:text-2xl text-center font-bold'>For all employment inquiries regarding Justin please view his <span className='text-white'>cover letter</span> and <span className='text-white'>resume</span> along with a <span className='text-white'>letter of recommendation</span> from one of his design professors. </p>
+                <p className='text-black lg:text-3xl sm:text-2xl max-sm:text-2xl text-center font-bold'>For all employment inquiries regarding Justin please view his <span className='text-white'>cover letter</span> and <span className='text-white'>resume</span> along with a <span className='text-white'>letter of recommendation</span> from one of his design professors. </p>
             </div>
 
             <div className='lg:p-12 sm:p-0 max-sm:p-0'>
@@ -53,7 +53,7 @@ export default function About() {
                         <h2 className='font-bold text-black text-5xl'>HOBBIES & INTERESTS</h2>
                     </div>
                 </div>
-                <div className='bg-yellow-100 lg:p-24 sm:p-14 max-sm:p-14 lg:w-3/5 sm:w-full max-sm:w-full'>
+                <div className='bg-green-600 lg:p-24 sm:p-14 max-sm:p-14 lg:w-3/5 sm:w-full max-sm:w-full'>
                     <ul className='text-black font-bold'>
                         <li className='list-disc text-2xl mb-5'>Justin is a student, fashion enthusiast, business mogul, entrepreneur, a aspiring designer and <span className='text-white'>so much more...</span></li>
                         <li className='list-disc text-2xl'>Since a young age, Justin’s interests laid within the fields of: <span className='text-white text-3xl'>fashion</span>, <span className='text-white text-3xl'>design</span>, <span className='text-white text-3xl'>clothing</span> and <span className='text-white text-3xl'>the arts</span></li>
@@ -62,7 +62,7 @@ export default function About() {
                     </ul>
                 </div>
                 <div className='flex justify-end translate-y-[-2rem]'>
-                    <ul className='bg-yellow-200 lg:p-20 sm:p-14 max-sm:p-14 lg:w-3/5 sm:w-full max-sm:w-full text-black font-bold'>
+                    <ul className='bg-green-700 lg:p-20 sm:p-14 max-sm:p-14 lg:w-3/5 sm:w-full max-sm:w-full text-black font-bold'>
                         <li className='list-disc text-2xl mb-5'>Within the last three years Justin has developed an interest in the areas of <span className='text-white text-3xl'>Web3.0</span> and <span className='text-white text-3xl'>Cryptocurrency</span></li>
                         <li className='list-disc text-2xl mb-5'>Justin has 10,000+ hours studied in this specific field</li>
                         <li className='list-disc text-2xl mb-5'>Justin studies behind the lines as to why certain things were designed the way they were</li>

@@ -29,9 +29,9 @@ export default function Navbar() {
                 </button>
             </header>
             <div>
-                <div className='bg-green-700 h-96 lg:px-44 sm:px-20 max-sm:px-10 pt-28 font-extrabold'>
-                    <h2 className='text-black lg:text-6xl sm:text-6xl max-sm:text-5xl p-2 font-extrabold'>justin kanji.</h2>
-                    <div className='lg:pl-32 sm:pl-20 max-sm:pl-5 lg:text-5xl text-center sm:text-4xl max-sm:text-3xl'>
+                <div className='bg-green-700 h-96 lg:px-44 sm:px-20 max-sm:px-10 pt-36 font-extrabold'>
+                    <h2 className='text-black lg:text-5xl sm:text-4xl max-sm:text-4xl p-2 font-extrabold'>justinkanji.</h2>
+                    <div className='lg:pl-32 sm:pl-20 max-sm:pl-5 lg:text-4xl text-center sm:text-3xl max-sm:text-3xl'>
                         <div className='flex flex-wrap font-extrabold'>
                             <p className='text-white'>UX/UI Designer</p>
                             <span className='text-black'>.</span>
