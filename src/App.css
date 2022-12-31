@@ -145,3 +145,12 @@ nav {
 .bot-footer-link:hover:nth-child(5) {
     transform: scale(1.1) rotate(-4deg);
 }
+
+.arrow-hover {
+    transition: 0.5s;
+}
+
+.arrow-hover:hover {
+    transform: translateX(15px);
+    color: #fff;
+}

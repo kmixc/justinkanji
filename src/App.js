@@ -9,6 +9,12 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Resume from "./pages/Resume";
 
+//PORTFOLIO LINKS
+import Cradle from "./pages/portfolio/Cradle";
+import FNTSY from "./pages/portfolio/FNTSY";
+import Chariot from "./pages/portfolio/Chariot";
+import AllWork from "./pages/portfolio/AllWork";
+
 function App() {
   return (
     <div className="App">
@@ -19,6 +25,10 @@ function App() {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
+        <Route path="/cradle" element={<Cradle />} />
+        <Route path="/fntsy" element={<FNTSY />} />
+        <Route path="/chariot" element={<Chariot />} />
+        <Route path="/all" element={<AllWork />} />
       </Routes>
       <Footer />
     </div>
