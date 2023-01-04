@@ -31,9 +31,9 @@ export default function Cradle() {
                 <div className='bg-yellow-200 text-black font-bold flex flex-col justify-center items-center lg:w-5/6 sm:w-full lg:mr-24 p-12'>
                     <div className='flex justify-center items-center lg:flex-row sm:flex-col max-sm:flex-col'>
                         <img src={cradle_1} className="lg:w-1/5 sm:w-3/6 max-sm:w-4/6 p-5" alt="" />
-                        <img src={cradle_2} className="lg:w-1/5 sm:w-3/6 max-sm:w-4/6 p-5 pt-12" alt="" />
-                        <img src={cradle_3} className="lg:w-1/5 sm:w-3/6 max-sm:w-4/6 p-5 pt-12" alt="" />
-                        <img src={cradle_4} className="lg:w-1/5 sm:w-3/6 max-sm:w-4/6 p-5 pt-12" alt="" />
+                        <img src={cradle_2} className="lg:w-1/5 sm:w-3/6 max-sm:w-4/6 p-5 max-sm:pt-12" alt="" />
+                        <img src={cradle_3} className="lg:w-1/5 sm:w-3/6 max-sm:w-4/6 p-5 max-sm:pt-12" alt="" />
+                        <img src={cradle_4} className="lg:w-1/5 sm:w-3/6 max-sm:w-4/6 p-5 max-sm:pt-12" alt="" />
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@ export default function Cradle() {
                         she can in her power to create a premiere sleep schedule and routine for her and her son.
                     </p>
                 </div>
-                <div className='flex justify-center flex-col items-center lg:translate-y-[-6rem]'>
+                <div className='flex justify-center flex-col items-center lg:translate-y-[-3rem]'>
                     <div className='lg:w-3/6 sm:w-full max-sm:w-full bg-red-400 py-10 px-16 font-bold text-black text-center'>
                         <p className='pb-10 lg:text-3xl sm:text-2xl max-sm:text-2xl'>
                             During the setup of Cradle, Beth had the concern of how easy it would be to utilize all the features of Cradle as well how easy it would be to use their mobile application.
@@ -87,7 +87,7 @@ export default function Cradle() {
             </div>
 
             <div className='flex flex-col justify-center items-center'>
-                <div className='bg-yellow-500 font-bold text-black text-3xl px-28 py-12 text-center'>
+                <div className='bg-yellow-500 font-bold text-black lg:text-3xl sm:text-2xl max-sm:text-xl px-28 py-12 text-center'>
                     <p>Watch our full presentation on</p>
                     <p>Cradle here:</p>
                 </div>
