@@ -1,15 +1,12 @@
 import React from 'react'
 
 //images
-import fntsy_1 from "../../img/FNTSY/fntsy_mockup_1.png"
 import fntsy_2 from "../../img/FNTSY/fntsy_mockup_2.png"
 import fntsy_3 from "../../img/FNTSY/fntsy_mockup_3.png"
 import fntsy_4 from "../../img/FNTSY/fntsy_mockup_4.png"
 import fntsy_5 from "../../img/FNTSY/fntsy_mockup_5.png"
 import fntsy_6 from "../../img/FNTSY/fntsy_mockup_6.png"
 import fntsy_7 from "../../img/FNTSY/fntsy_mockup_7.png"
-import fntsy_8 from "../../img/FNTSY/fntsy_mockup_8.png"
-import fntsy_9 from "../../img/FNTSY/fntsy_mockup_9.png"
 import fntsy_10 from "../../img/FNTSY/fntsy_mockup_10.png"
 import fntsy_11 from "../../img/FNTSY/fntsy_mockup_11.png"
 

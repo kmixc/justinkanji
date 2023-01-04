@@ -4,6 +4,9 @@ import { FaBars, FaTimes } from "react-icons/fa"
 import { useRef } from 'react';
 import { Link } from 'react-router-dom';
 
+//Logo
+import Logo from "../img/JFK_Logo_black.png";
+
 export default function Navbar() {
     const navRef = useRef();
 
@@ -17,7 +20,7 @@ export default function Navbar() {
                 <nav ref={navRef}>
                     <Link onClick={showNavbar} className='px-10 hover:text-white hover:drop-shadow-xl transition duration-300' to="/about">about.</Link>
                     <Link onClick={showNavbar} className='px-10 hover:text-white hover:drop-shadow-xl transition duration-300' to="/portfolio">portfolio.</Link>
-                    <Link onClick={showNavbar} className='px-5 hover:text-cyan-500 scale hover:drop-shadow-xl transition duration-300 sm:text-6xl max-sm:text-6xl mt-2' to="/">JFK</Link>
+                    <Link onClick={showNavbar} className='px-5 hover:text-cyan-500 scale hover:drop-shadow transition duration-300 sm:text-6xl max-sm:text-6xl mt-2' to="/"><img width='70px' src={Logo}></img></Link>
                     <Link onClick={showNavbar} className='px-10 hover:text-white hover:drop-shadow-xl transition duration-300' to="/resume">resume.</Link>
                     <Link onClick={showNavbar} className='px-10 hover:text-white hover:drop-shadow-xl transition duration-300' to="/contact">contact.</Link>
                     <button className='nav-btn nav-close-btn lg:hidden md:flex sm:flex' onClick={showNavbar}>

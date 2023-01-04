@@ -14,12 +14,12 @@ export default function Resume() {
                     <div className='bg-yellow-100 p-16 lg:w-2/6 sm:w-full max-sm:w-full text-black font-bold lg:m-20 sm:m-10 max-sm:m-10 text-center text-3xl'>
                         <p>View Justin's</p>
                         <p className='text-white drop-shadow'>Cover Letter</p>
-                        <a href="#" className='underline hover:text-white transition'>HERE</a>
+                        <a href="https://drive.google.com/file/d/16lM7qyWWrxcmrmt5m8JB1t7QOuG2NjR0/view?usp=sharing" className='underline hover:text-white transition'>HERE</a>
                     </div>
                     <div className='bg-yellow-100 p-16 lg:w-2/6 sm:w-full max-sm:w-full text-black font-bold lg:m-20 sm:m-10 max-sm:mb-10 text-center text-3xl'>
                         <p>View Justin's</p>
                         <p className='text-white drop-shadow'>Resume</p>
-                        <a href="#" className='underline hover:text-white transition'>HERE</a>
+                        <a href="https://drive.google.com/file/d/1FLpL_ij-scAGt35YY_qsFLqcFmFNzrTO/view" target="link" className='underline hover:text-white transition'>HERE</a>
                     </div>
                 </div>
 
