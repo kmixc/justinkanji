@@ -71,7 +71,7 @@ export default function Chariot() {
                         </p>
                     </div>
                     <div className='flex justify-center items-center lg:flex-row sm:flex-col max-sm:flex-col bg-blue-200 p-12 lg:w-4/6 sm:w-full max-sm:w-full translate-y-[-3rem]'>
-                        <img className='p-12 lg:w-2/4 sm:w-2/4 max-sm:w-4/4' src={chariot_8} alt="" />
+                        <img className='p-12 lg:w-2/5 sm:w-2/4 max-sm:w-3/4' src={chariot_8} alt="" />
                         <div className='text-black font-bold text-center'>
                             <p className='lg:text-4xl max-sm:text-2xl lg:mb-20 sm:mb-10 max-sm:mb-8'>Interactive Privacy Policy.</p>
                             <p className='lg:text-2xl max-sm:text-xl'>
