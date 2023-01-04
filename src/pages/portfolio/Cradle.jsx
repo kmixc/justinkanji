@@ -21,8 +21,8 @@ export default function Cradle() {
                 <div className='flex justify-end'>
                     <div className='bg-yellow-200 text-black font-bold flex flex-col justify-center items-center lg:w-4/6 sm:w-full lg:mr-24 p-12'>
                         <div className='flex justify-center'>
-                            <img src={cradle_1} className="lg:w-1/4 sm:w-3/6 max-sm:w-3/6 p-5" alt="" />
-                            <img src={cradle_2} className="lg:w-1/4 sm:w-3/6 max-sm:w-3/6 p-5 pt-12" alt="" />
+                            <img src={cradle_1} className="lg:w-1/4 sm:w-3/6 max-sm:w-3/6 p-5" alt="cradle-1" />
+                            <img src={cradle_2} className="lg:w-1/4 sm:w-3/6 max-sm:w-3/6 p-5 pt-12" alt="cradle-2" />
                         </div>
                     </div>
                 </div>
@@ -30,10 +30,10 @@ export default function Cradle() {
             <div className='flex justify-center mt-24'>
                 <div className='bg-yellow-200 text-black font-bold flex flex-col justify-center items-center lg:w-5/6 sm:w-full lg:mr-24 p-12'>
                     <div className='flex justify-center items-center lg:flex-row sm:flex-col max-sm:flex-col'>
-                        <img src={cradle_1} className="lg:w-1/5 sm:w-3/6 max-sm:w-4/6 p-5" alt="" />
-                        <img src={cradle_2} className="lg:w-1/5 sm:w-3/6 max-sm:w-4/6 p-5 max-sm:pt-12" alt="" />
-                        <img src={cradle_3} className="lg:w-1/5 sm:w-3/6 max-sm:w-4/6 p-5 max-sm:pt-12" alt="" />
-                        <img src={cradle_4} className="lg:w-1/5 sm:w-3/6 max-sm:w-4/6 p-5 max-sm:pt-12" alt="" />
+                        <img src={cradle_1} className="lg:w-1/5 sm:w-3/6 max-sm:w-5/6 p-5" alt="cradle-1" />
+                        <img src={cradle_2} className="lg:w-1/5 sm:w-3/6 max-sm:w-5/6 p-5 max-sm:pt-12" alt="cradle-2" />
+                        <img src={cradle_3} className="lg:w-1/5 sm:w-3/6 max-sm:w-5/6 p-5 max-sm:pt-12" alt="cradle-3" />
+                        <img src={cradle_4} className="lg:w-1/5 sm:w-3/6 max-sm:w-5/6 p-5 max-sm:pt-12" alt="cradle-4" />
                     </div>
                 </div>
             </div>
@@ -58,13 +58,13 @@ export default function Cradle() {
                 </div>
 
                 <div className='flex lg:justify-end sm:justify-center max-sm:justify-center sm:items-center max-sm:items-center'>
-                    <img src={cradle_5} className="lg:translate-y-[-10rem] lg:w-3/6 sm:w-full max-sm:w-full mx-12" alt="" />
+                    <img src={cradle_5} className="lg:translate-y-[-10rem] lg:w-3/6 sm:w-full max-sm:w-full mx-12" alt="cradle-5" />
                 </div>
             </div>
 
             <div className='flex justify-center items-center flex-col'>
                 <p className='bg-yellow-200 lg:w-2/6 sm:w-full max-sm:w-full py-12 text-4xl text-black font-bold text-center'>User-Journey Map</p>
-                <img className='bg-red-400 lg:p-12 sm:p-2 max-sm:p-2 lg:w-5/6 sm:w-full max-sm:w-full' src={cradle_6} alt="" />
+                <img className='bg-red-400 lg:p-12 sm:p-2 max-sm:p-2 lg:w-5/6 sm:w-full max-sm:w-full' src={cradle_6} alt="cradle-6" />
             </div>
 
             <div className='mt-20'>

@@ -48,16 +48,16 @@ export default function Chariot() {
                 <div className='flex justify-center translate-y-[-4rem]'>
                     <div className='bg-blue-200 lg:w-4/6 sm:w-full max-sm:w-full'>
                         <div className='flex justify-around'>
-                            <img className='p-8 lg:w-2/6 sm:w-2/6 max-sm:w-3/6' src={chariot_1} alt="" />
-                            <img className='p-8 lg:w-2/6 sm:w-2/6 max-sm:w-3/6' src={chariot_2} alt="" />
+                            <img className='p-8 lg:w-2/6 sm:w-2/6 max-sm:w-3/6' src={chariot_1} alt="chariot_1" />
+                            <img className='p-8 lg:w-2/6 sm:w-2/6 max-sm:w-3/6' src={chariot_2} alt="chariot_2" />
                         </div>
                         <div className='flex justify-center items-center'>
                             <p className='bg-red-400 px-20 py-6 text-black font-bold text-3xl'>Key Experiences:</p>
                         </div>
                         <p className='text-center text-black font-bold text-3xl pt-12'>Onboarding.</p>
                         <div className='flex justify-around'>
-                            <img className='p-8 lg:w-2/6 sm:w-2/6 max-sm:w-3/6' src={chariot_3} alt="" />
-                            <img className='p-8 lg:w-2/6 sm:w-2/6 max-sm:w-3/6' src={chariot_4} alt="" />
+                            <img className='p-8 lg:w-2/6 sm:w-2/6 max-sm:w-3/6' src={chariot_3} alt="chariot_3" />
+                            <img className='p-8 lg:w-2/6 sm:w-2/6 max-sm:w-3/6' src={chariot_4} alt="chariot_4" />
                         </div>
                     </div>
                 </div>
@@ -71,7 +71,7 @@ export default function Chariot() {
                         </p>
                     </div>
                     <div className='flex justify-center items-center lg:flex-row sm:flex-col max-sm:flex-col bg-blue-200 p-12 lg:w-4/6 sm:w-full max-sm:w-full translate-y-[-3rem]'>
-                        <img className='p-12 lg:w-2/5 sm:w-2/4 max-sm:w-3/4' src={chariot_8} alt="" />
+                        <img className='p-12 lg:w-2/5 sm:w-2/4 max-sm:w-3/4' src={chariot_8} alt="chariot_8" />
                         <div className='text-black font-bold text-center'>
                             <p className='lg:text-4xl max-sm:text-2xl lg:mb-20 sm:mb-10 max-sm:mb-8'>Interactive Privacy Policy.</p>
                             <p className='lg:text-2xl max-sm:text-xl'>
@@ -90,15 +90,15 @@ export default function Chariot() {
                 <div className='flex justify-center'>
                     <div className='bg-blue-200 container text-black font-bold'>
                         <div className='flex items-center justify-center'>
-                            <img className='p-12 lg:w-1/4 sm:w-2/4 max-sm:w-2/4' src={chariot_4} alt="" />
+                            <img className='p-12 lg:w-1/4 sm:w-2/4 max-sm:w-2/4' src={chariot_4} alt="chariot_4" />
                             <p className='lg:text-3xl sm:text-2xl max-sm:text-xl w-2/6 text-center'>The first step of the ride is inputting the final destination </p>
                         </div>
                         <div className='flex items-center justify-center'>
                             <p className='lg:text-3xl sm:text-2xl max-sm:text-xl w-2/6 text-center'>The user can then select which vehicle they wish to have for their trip, depending on the occasion or number of passengers with them</p>
-                            <img className='p-12 lg:w-1/4 sm:w-2/4 max-sm:w-2/4' src={chariot_5} alt="" />
+                            <img className='p-12 lg:w-1/4 sm:w-2/4 max-sm:w-2/4' src={chariot_5} alt="chariot_5" />
                         </div>
                         <div className='flex items-center justify-center'>
-                            <img className='p-12 lg:w-1/4 sm:w-2/4 max-sm:w-2/4' src={chariot_6} alt="" />
+                            <img className='p-12 lg:w-1/4 sm:w-2/4 max-sm:w-2/4' src={chariot_6} alt="chariot_6" />
                             <p className='lg:text-3xl sm:text-2xl max-sm:text-xl w-2/6 text-center'>
                                 Along the journey, the passenger can view and make changes to the route based on
                                 Chariot’s built-in traffic/accident detection and route optimization system
@@ -109,7 +109,7 @@ export default function Chariot() {
                                 After drop-off the passenger can leave an optional tip for any drivers that did more than
                                 required, and rate their experience during trip. After this, the user’s journey concludes
                             </p>
-                            <img className='p-12 lg:w-1/4 sm:w-2/4 max-sm:w-2/4' src={chariot_7} alt="" />
+                            <img className='p-12 lg:w-1/4 sm:w-2/4 max-sm:w-2/4' src={chariot_7} alt="chariot_7" />
                         </div>
                     </div>
                 </div>
