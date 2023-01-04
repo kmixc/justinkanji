@@ -11,13 +11,8 @@ import fntsy_2 from "../img/FNTSY/fntsy_mockup_5.png"
 
 //CHARIOT
 import chariot_1 from "../img/Chariot/chariot_screen_one.png"
-import chariot_2 from "../img/Chariot/chariot_screen_two.png"
-import chariot_3 from "../img/Chariot/chariot_screen_three.png"
 import chariot_4 from "../img/Chariot/chariot_screen_four.png"
 import chariot_5 from "../img/Chariot/chariot_screen_five.png"
-import chariot_6 from "../img/Chariot/chariot_screen_six.png"
-import chariot_7 from "../img/Chariot/chariot_screen_seven.png"
-import chariot_8 from "../img/Chariot/chariot_screen_eight.png"
 
 
 export default function Portfolio() {
@@ -50,7 +45,7 @@ export default function Portfolio() {
                     <p className='text-md text-center'>Modern day fantasy app focused on the social aspect of fantasy sports</p>
                 </div>
                 <div className='flex justify-start'>
-                    <div className='bg-blue-200 text-black font-bold flex flex-col justify-center items-center lg:w-3/6 sm:w-full lg:ml-24 p-12'>
+                    <div className='bg-emerald-300 text-black font-bold flex flex-col justify-center items-center lg:w-3/6 sm:w-full lg:ml-24 p-12'>
                         <div className='flex justify-center'>
                             <img src={fntsy_1} className="lg:w-2/6 sm:w-3/6 max-sm:w-3/6 p-5" alt="" />
                             <img src={fntsy_2} className="lg:w-2/6 sm:w-3/6 max-sm:w-3/6 p-5 pt-12" alt="" />
@@ -75,7 +70,7 @@ export default function Portfolio() {
                             <img src={chariot_4} className="lg:w-2/6 sm:w-2/6 max-sm:w-2/6 p-5 pt-12" alt="" />
                             <img src={chariot_5} className="lg:w-2/6 sm:w-2/6 max-sm:w-2/6 p-5 pt-12" alt="" />
                         </div>
-                        <a href="/fntsy" className='flex items-center arrow-hover text-xl'>
+                        <a href="/chariot" className='flex items-center arrow-hover text-xl'>
                             View Here
                             <BsArrowRight className='pl-2' size={"3em"} />
                         </a>
