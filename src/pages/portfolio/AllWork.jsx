@@ -27,13 +27,13 @@ export default function AllWork() {
             </div>
 
             <div className='mt-8'>
-                <div className='flex justify-center lg:translate-y-[2rem] lg:mt-0 sm:mt-10 max-sm:mt-10'>
+                <div className='flex justify-center lg:translate-y-[1rem] lg:mt-0 sm:mt-10 max-sm:mt-10'>
                     <div className='bg-fuchsia-400 lg:w-3/6 sm:w-full max-sm:w-full py-6 text-center text-black font-bold'>
                         <p className='lg:text-4xl sm:text-3xl max-sm:text-3xl'>Design Project: VR Aided Architecture & Interior Design </p>
                     </div>
                 </div>
                 <div className='flex justify-center items-center'>
-                    <div className='bg-zinc-500 text-black font-bold flex flex-col justify-center items-center lg:w-5/6 sm:w-full lg:p-20 sm:p-16 max-sm:p-8 lg:pt-4 max-sm:pt-16'>
+                    <div className='bg-zinc-500 text-black font-bold flex flex-col justify-center items-center lg:w-5/6 sm:w-full lg:p-24 sm:p-16 max-sm:p-8 lg:pt-12 max-sm:pt-16'>
                         <p className='text-center text-white text-2xl'>
                             Students were tasked with designing a new, unique VR application (hereby referred to as “system”).
                             The designed application should make uniquecontribution to existing research and/or state-of-the-art.
@@ -54,13 +54,13 @@ export default function AllWork() {
             </div>
 
             <div>
-                <div className='flex justify-center lg:translate-y-[2rem] lg:mt-0 sm:mt-10 max-sm:mt-10'>
+                <div className='flex justify-center lg:translate-y-[1rem] lg:mt-0 sm:mt-10 max-sm:mt-10'>
                     <div className='bg-orange-400 lg:w-3/6 sm:w-full max-sm:w-full py-6 text-center text-black font-bold'>
                         <p className='lg:text-4xl sm:text-3xl max-sm:text-3xl'>Reimagined Privacy Notice</p>
                     </div>
                 </div>
                 <div className='flex justify-center items-center'>
-                    <div className='bg-blue-400 text-black font-bold flex flex-col justify-center items-center lg:w-5/6 sm:w-full lg:p-20 sm:p-16 max-sm:p-8 lg:pt-4 max-sm:pt-16'>
+                    <div className='bg-blue-400 text-black font-bold flex flex-col justify-center items-center lg:w-5/6 sm:w-full lg:p-20 sm:p-16 max-sm:p-8 lg:pt-12 max-sm:pt-16'>
                         <p className='text-center py-2 text-2xl'>Students were challenged to reflect on the challenges of privacy notice and consent by prototyping a reimagined privacy device.</p>
                         <p className='text-center py-2 text-2xl'>Using a text-based privacy policy template provided, students had to create a usable and useful interface for displaying the privacy policy content. </p>
                         <p className='text-center pt-2 pb-8 text-2xl'>VIEW OUR REIMAGINED PRIVACY NOTICE BELOW</p>
@@ -72,13 +72,13 @@ export default function AllWork() {
             </div>
 
             <div>
-                <div className='flex justify-center lg:translate-y-[2rem] lg:mt-0 sm:mt-10 max-sm:mt-10'>
+                <div className='flex justify-center lg:translate-y-[1rem] lg:mt-0 sm:mt-10 max-sm:mt-10'>
                     <div className='bg-orange-200 lg:w-3/6 sm:w-full max-sm:w-full py-6 text-center text-black font-bold'>
                         <p className='lg:text-4xl sm:text-3xl max-sm:text-3xl'>Mapping Security & Privacy Experiences for IoT Devices</p>
                     </div>
                 </div>
                 <div className='flex justify-center items-center'>
-                    <div className='bg-zinc-400 text-black font-bold flex flex-col justify-center items-center lg:w-5/6 sm:w-full lg:p-20 sm:p-16 max-sm:p-8 lg:pt-4 max-sm:pt-16'>
+                    <div className='bg-zinc-400 text-black font-bold flex flex-col justify-center items-center lg:w-5/6 sm:w-full lg:p-20 sm:p-16 max-sm:p-8 lg:pt-12 max-sm:pt-16'>
                         <p className='text-center text-white text-2xl'>
                             Students had to make a persona made up attributes, encompassing various behaviours,
                             attitudes and needs of your persona (in this case; security & privacy for IoT devices).
@@ -92,13 +92,13 @@ export default function AllWork() {
             </div>
 
             <div>
-                <div className='flex justify-center lg:translate-y-[2rem] lg:mt-0 sm:mt-10 max-sm:mt-10'>
+                <div className='flex justify-center lg:translate-y-[1rem] lg:mt-0 sm:mt-10 max-sm:mt-10'>
                     <div className='bg-indigo-500 lg:w-1/6 sm:w-full max-sm:w-full py-6 text-center text-black font-bold'>
                         <p className='lg:text-4xl sm:text-3xl max-sm:text-3xl'>flex inc.</p>
                     </div>
                 </div>
                 <div className='flex justify-center items-center'>
-                    <div className='bg-blue-200 text-black font-bold flex flex-col justify-center items-center lg:w-5/6 sm:w-full lg:p-20 sm:p-16 max-sm:p-2 lg:pt-4 max-sm:pt-16'>
+                    <div className='bg-blue-200 text-black font-bold flex flex-col justify-center items-center lg:w-5/6 sm:w-full lg:p-20 sm:p-16 max-sm:p-2 lg:pt-12 max-sm:pt-16'>
                         <p className='text-center py-2 text-2xl'>
                             This is a mobile application that was made in Justin’s 3A term of his undergraduate study.
                             The task was to create a mobile application that solves the 2020 RSA Design Brief #3: Hybrid Home/Work.
@@ -118,13 +118,13 @@ export default function AllWork() {
             </div>
 
             <div>
-                <div className='flex justify-center lg:translate-y-[2rem] lg:mt-0 sm:mt-10 max-sm:mt-10'>
+                <div className='flex justify-center lg:translate-y-[1rem] lg:mt-0 sm:mt-10 max-sm:mt-10'>
                     <div className='bg-orange-400 lg:w-3/6 sm:w-full max-sm:w-full py-6 text-center text-black font-bold'>
                         <p className='lg:text-4xl sm:text-3xl max-sm:text-3xl'>EduNest.</p>
                     </div>
                 </div>
                 <div className='flex justify-center items-center'>
-                    <div className='bg-orange-300 text-black font-bold flex flex-col justify-center items-center lg:w-5/6 sm:w-full lg:p-20 sm:p-16 max-sm:p-8 lg:pt-4 max-sm:pt-16'>
+                    <div className='bg-orange-300 text-black font-bold flex flex-col justify-center items-center lg:w-5/6 sm:w-full lg:p-20 sm:p-16 max-sm:p-8 lg:pt-8 max-sm:pt-16'>
                         <p className='text-center py-2 text-2xl'>
                             For you as a user and myself a UX designer it is vital to understand the creation process of these mobile applications.
                             I have created and compiled our UX process for one of the projects I have taken part of named; EduNest.
@@ -165,7 +165,7 @@ export default function AllWork() {
             </div>
 
             <div>
-                <div className='flex justify-center lg:translate-y-[2rem] lg:mt-0 sm:mt-10 max-sm:mt-10'>
+                <div className='flex justify-center lg:translate-y-[1rem] lg:mt-0 sm:mt-10 max-sm:mt-10'>
                     <div className='bg-orange-200 lg:w-3/6 sm:w-full max-sm:w-full py-6 text-center text-black font-bold'>
                         <p className='lg:text-4xl sm:text-3xl max-sm:text-3xl'>TipKit.</p>
                     </div>
@@ -174,7 +174,7 @@ export default function AllWork() {
                     <div className='bg-indigo-300 text-black font-bold flex flex-col justify-center items-center lg:w-5/6 sm:w-full max-sm:w-full lg:p-20 sm:p-16 max-sm:p-8 lg:pt-4 max-sm:pt-16'>
                         <div>
                             <div className='flex justify-center'>
-                                <div className='bg-orange-200 my-4 lg:w-2/4 sm:w-full max-sm:w-full px-8 py-6 text-center text-black font-bold'>
+                                <div className='bg-orange-200 my-4 w-full px-8 py-6 text-center text-black font-bold'>
                                     <p className='lg:text-4xl sm:text-3xl max-sm:text-3xl'>TipKit Wireframes</p>
                                 </div>
                             </div>
@@ -182,7 +182,7 @@ export default function AllWork() {
                         </div>
                         <div>
                             <div className='flex justify-center'>
-                                <div className='bg-orange-200 my-4 lg:w-2/4 sm:w-full max-sm:w-full px-8 py-6 text-center text-black font-bold'>
+                                <div className='bg-orange-200 my-4 w-full px-8 py-6 text-center text-black font-bold'>
                                     <p className='lg:text-4xl sm:text-3xl max-sm:text-3xl'>TipKit Prototype</p>
                                 </div>
                             </div>
@@ -192,13 +192,13 @@ export default function AllWork() {
                 </div>
 
                 <div>
-                    <div className='flex justify-center lg:translate-y-[2rem] lg:mt-0 sm:mt-10 max-sm:mt-10'>
+                    <div className='flex justify-center lg:translate-y-[1rem] lg:mt-0 sm:mt-10 max-sm:mt-10'>
                         <div className='bg-red-500 lg:w-2/6 sm:w-full max-sm:w-full py-6 text-center text-black font-bold'>
                             <p className='lg:text-4xl sm:text-3xl max-sm:text-3xl'>Truckla Case Study.</p>
                         </div>
                     </div>
                     <div className='flex justify-center items-center'>
-                        <div className='bg-zinc-400 text-black font-bold flex flex-col justify-center items-center lg:w-5/6 sm:w-full max-sm:w-full lg:p-20 sm:p-16 max-sm:p-8 lg:pt-4 max-sm:pt-16'>
+                        <div className='bg-zinc-400 text-black font-bold flex flex-col justify-center items-center lg:w-5/6 sm:w-full max-sm:w-full lg:p-20 sm:p-16 max-sm:p-8 lg:pt-16 max-sm:pt-16'>
                             <iframe width="100%" height="655" src="https://www.youtube.com/embed/jKv_N0IDS2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             <p className='text-center py-2 text-2xl'>OPEN CASE STUDY</p>
                             <a className='text-center px-10 py-4 bg-red-500 hover:text-black hover:bg-white transition text-2xl' href="#">HERE</a>
