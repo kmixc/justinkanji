@@ -6,6 +6,10 @@ import flexinc_1 from "../../img/flexinc/flexinc_1.png"
 import flexinc_2 from "../../img/flexinc/flexinc_2.png"
 import flexinc_3 from "../../img/flexinc/flexinc_3.png"
 
+import EduNest_1 from "../../img/EduNest/edunest_anywhere_anytime.png"
+import EduNest_2 from "../../img/EduNest/EduNest_DM.png"
+import EduNest_3 from "../../img/EduNest/EduNest_OurSolution.png"
+
 export default function AllWork() {
     return (
         <div>
@@ -21,14 +25,11 @@ export default function AllWork() {
                         <p className='lg:text-4xl sm:text-3xl max-sm:text-3xl'>all of justin’s work will be displayed below from most recent to oldest.</p>
                     </div>
                 </div>
-
-                <div>
-                </div>
             </div>
 
             <div className='mt-8'>
                 <div className='flex justify-center lg:translate-y-[1rem] lg:mt-0 sm:mt-10 max-sm:mt-10'>
-                    <div className='bg-fuchsia-400 lg:w-3/6 sm:w-full max-sm:w-full py-6 text-center text-black font-bold'>
+                    <div className='bg-green-700 lg:w-3/6 sm:w-full max-sm:w-full py-6 text-center text-black font-bold'>
                         <p className='lg:text-4xl sm:text-3xl max-sm:text-3xl'>Design Project: VR Aided Architecture & Interior Design </p>
                     </div>
                 </div>
@@ -42,13 +43,13 @@ export default function AllWork() {
                             Students were tasked with writing a report where they describe the system and contrast it to existing
                             work, describe design decisions informed by existing research, and describe how the system is used.
                         </p>
-                        <p className='text-center py-6 text-fuchsia-400 text-2xl'>
+                        <p className='text-center py-6 text-black text-2xl'>
                             VR Aided Architecture and Interior Design has many design/planning applications in the real world.
                             The generalidea behind this concept is to allow architects and their customers to accurately visualize a sense of the buildings scale,
                             mood, and space before anything is actually constructed...
                         </p>
                         <p className='text-white text-3xl'>OPEN FULL PDF REPORT</p>
-                        <a className='text-center px-6 py-4 mt-6 text-white bg-fuchsia-400 hover:text-black hover:bg-white transition text-2xl' href="#">HERE</a>
+                        <a className='text-center px-6 py-4 mt-6 text-white bg-green-700 hover:text-black hover:bg-white transition text-2xl' href="#">HERE</a>
                     </div>
                 </div>
             </div>
@@ -138,7 +139,7 @@ export default function AllWork() {
                             Below is our proposed solution. Our task for this mobile application was to redesign UW
                             Learn which is the University of Waterloo’s platform used for online learning.
                         </p>
-                        <img src="" alt="" />
+                        <img className='p-8 w-full' src={EduNest_3} alt="" />
                         <div className='flex justify-center'>
                             <div className='bg-orange-400 w-full px-8 py-6 text-center text-black font-bold'>
                                 <p className='lg:text-4xl sm:text-3xl max-sm:text-3xl'>USABILITY</p>
@@ -147,7 +148,7 @@ export default function AllWork() {
                         <p className='text-center py-2 text-2xl'>
                             Below is a brief explanation of the usability and convenience that our application provides for University of Waterloo students
                         </p>
-                        <img src="" alt="" />
+                        <img className='p-8 w-full' src={EduNest_1} alt="" />
                         <div className='flex justify-center'>
                             <div className='bg-orange-400 w-full px-8 py-6 text-center text-black font-bold'>
                                 <p className='lg:text-4xl sm:text-3xl max-sm:text-3xl'>DIRECT MESSAGING FEATURE</p>
@@ -157,7 +158,7 @@ export default function AllWork() {
                             One of our main solutions to improve online communication was to implement a direct messaging feature for students
                             and for professors. Thus allowing both parties to stay ion touch providing an easier tool for communication
                         </p>
-                        <img src="" alt="" />
+                        <img className='p-8 w-full' src={EduNest_2} alt="" />
 
                         <iframe width="100%" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FEQ1YPaCfNobvqGh4K5DSrx%2FEduNest%3Fpage-id%3D0%253A1%26node-id%3D2%253A2%26viewport%3D750%252C-8%252C0.17%26scaling%3Dscale-down%26starting-point-node-id%3D2%253A2" allowfullscreen></iframe>
                     </div>
@@ -201,7 +202,7 @@ export default function AllWork() {
                         <div className='bg-zinc-400 text-black font-bold flex flex-col justify-center items-center lg:w-5/6 sm:w-full max-sm:w-full lg:p-20 sm:p-16 max-sm:p-8 lg:pt-16 max-sm:pt-16'>
                             <iframe width="100%" height="655" src="https://www.youtube.com/embed/jKv_N0IDS2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             <p className='text-center py-2 text-2xl'>OPEN CASE STUDY</p>
-                            <a className='text-center px-10 py-4 bg-red-500 hover:text-black hover:bg-white transition text-2xl' href="#">HERE</a>
+                            <a className='text-center px-10 py-4 bg-red-500 hover:text-black hover:bg-white transition text-2xl' href="https://drive.google.com/file/d/1AWxgyxL_UwGOcw_4QqmruTlE7R14N7u4/view?usp=share_link" target="work">HERE</a>
                         </div>
                     </div>
                 </div>
