@@ -110,9 +110,9 @@ export default function AllWork() {
                             Flex is a mobile auto-scheduling application with the help oif an in app assistant.
                         </p>
                         <p className='text-center text-indigo-500 py-2 text-2xl'>VIEW PROPOSAL BOARDS AND INTERACTIVE FUCNTIONING PROTOTYPE BELOW:</p>
-                        <img className='p-4 lg:w-5/6 max-sm:w-full' src={flexinc_1} alt="" />
-                        <img className='p-4 lg:w-5/6 max-sm:w-full' src={flexinc_2} alt="" />
-                        <img className='p-4 lg:w-5/6 max-sm:w-full' src={flexinc_3} alt="" />
+                        <img className='p-4 lg:w-4/6 max-sm:w-full' src={flexinc_1} alt="" />
+                        <img className='p-4 lg:w-4/6 max-sm:w-full' src={flexinc_2} alt="" />
+                        <img className='p-4 lg:w-4/6 max-sm:w-full' src={flexinc_3} alt="" />
                         <iframe width="100%" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F3kJ6OEj5vcRtn8sUV9xT1F%2F310-Prototype%3Fpage-id%3D141%253A69%26node-id%3D141%253A69%26viewport%3D522%252C366%252C0.08%26scaling%3Dscale-down%26starting-point-node-id%3D448%253A46%26show-proto-sidebar%3D1" allowfullscreen></iframe>
                     </div>
                 </div>
@@ -139,7 +139,7 @@ export default function AllWork() {
                             Below is our proposed solution. Our task for this mobile application was to redesign UW
                             Learn which is the University of Waterloo’s platform used for online learning.
                         </p>
-                        <img className='p-8 lg:w-5/6 max-sm:w-full' src={EduNest_3} alt="" />
+                        <img className='p-8 lg:w-4/6 max-sm:w-full' src={EduNest_3} alt="" />
                         <div className='flex justify-center'>
                             <div className='bg-orange-400 w-full px-8 py-6 text-center text-black font-bold'>
                                 <p className='lg:text-3xl sm:text-2xl max-sm:text-2xl'>USABILITY</p>
@@ -148,7 +148,7 @@ export default function AllWork() {
                         <p className='text-center py-2 text-xl'>
                             Below is a brief explanation of the usability and convenience that our application provides for University of Waterloo students
                         </p>
-                        <img className='p-8 lg:w-5/6 max-sm:w-full' src={EduNest_1} alt="" />
+                        <img className='p-8 lg:w-4/6 max-sm:w-full' src={EduNest_1} alt="" />
                         <div className='flex justify-center'>
                             <div className='bg-orange-400 w-full px-8 py-6 text-center text-black font-bold'>
                                 <p className='lg:text-3xl sm:text-2xl max-sm:text-2xl'>DIRECT MESSAGING FEATURE</p>
@@ -158,7 +158,7 @@ export default function AllWork() {
                             One of our main solutions to improve online communication was to implement a direct messaging feature for students
                             and for professors. Thus allowing both parties to stay ion touch providing an easier tool for communication
                         </p>
-                        <img className='p-8 lg:w-5/6 max-sm:w-full' src={EduNest_2} alt="" />
+                        <img className='p-8 lg:w-4/6 max-sm:w-full' src={EduNest_2} alt="" />
 
                         <iframe width="100%" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FEQ1YPaCfNobvqGh4K5DSrx%2FEduNest%3Fpage-id%3D0%253A1%26node-id%3D2%253A2%26viewport%3D750%252C-8%252C0.17%26scaling%3Dscale-down%26starting-point-node-id%3D2%253A2" allowfullscreen></iframe>
                     </div>
